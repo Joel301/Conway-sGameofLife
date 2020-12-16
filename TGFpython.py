@@ -1,7 +1,7 @@
-def main():
-    print('hello')
-    pass
+import tkinter as tk
+from form import form
 
-if __name__ == "__main__":
-    main()
-    pass
+XSIZE = 100
+YSIZE = 60
+
+app = form(master=tk.Tk(), xsize=XSIZE, ysize=YSIZE)
