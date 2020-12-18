@@ -1,9 +1,5 @@
 import pandas as pd
 
-XSIZE = 5  # 100
-YSIZE = 5  # 60
-
-
 class arrays():
 
     def __init__(self, XSIZE=100, YSIZE=60):
@@ -35,14 +31,12 @@ class arrays():
         if sum > 3 and isalive: return 0
         return 0
 
-a = arrays(XSIZE, YSIZE)
+# a = arrays(XSIZE, YSIZE)
 
-a.now.loc[1:3,2] = 1
-print(a.now)
-a.do_tick()
-print(a.now)
+# a.now.loc[1:3,2] = 1
+# print(a.now)
+# a.do_tick()
+# print(a.now)
 
-a.do_tick()
-print(a.now)
-
-pass
+# a.do_tick()
+# print(a.now)
