@@ -15,7 +15,7 @@
             "name": "Main File",
             "type": "python",
             "request": "launch",
-            "program": "TGFpython.py",
+            "program": "src/TGFpython.py",
             "console": "integratedTerminal"
         }
     ]

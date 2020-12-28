@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "/home/joel23/.virtualenvs/Conway-sGameofLife/bin/python",
+    "editor.rulers": [
+    80,120
+    ]
+}
